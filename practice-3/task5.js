@@ -3,4 +3,4 @@ let convert = function(bytes) {
     return mb.toFixed(2) + " Mb";
 }
 
-console.log(convert.call(null, 10000)); // should produce "0.01 Mb"
+console.log(convert.call(null, 10000)); 
