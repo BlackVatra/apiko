@@ -1,0 +1,12 @@
+function timer(seconds) {
+  let s = seconds;
+  const interval = setInterval(() => {
+    console.log(`Timer: ${s}`);
+    s--;
+    if (s <= 0) {
+      clearInterval(interval);
+    }
+  }, 1000);
+}
+
+timer(10);
